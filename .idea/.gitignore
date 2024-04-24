@@ -1,18 +1,49 @@
-# Default ignored files
-/shelf/
-/workspace.xml
-/target/
-/.idea/
+# Java - Folder target
+target/
+# Do not ignore Maven wrapper jar file
+!.mvn/wrapper/maven-wrapper.jar
+# Do not ignore build directories for main and test sources
+!**/src/main/**/target/
+!**/src/test/**/target/
 
-# Datasource local storage ignored files
-/dataSources/
-/dataSources.local.xml
+### IntelliJ IDEA ###
+.idea/
+.idea/modules.xml
+.idea/jarRepositories.xml
+.idea/compiler.xml
+.idea/libraries/
+*.iws
+*.iml
+*.ipr
 
-# Editor-based HTTP Client requests
-/httpRequests/
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache
 
-# Ignorowanie folderu target
-/target/
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/ # Ignored globally, with exceptions below
+!**/src/main/**/build/ # Do not ignore this path
+!**/src/test/**/build/ # Do not ignore this path
 
-# Ignorowanie folderu .idea
-/.idea/
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+
+### General ###
+# Ignore all .log files
+*.log
+
+# Ignore node modules folder which might be used in frontend parts of the project
+node_modules/
